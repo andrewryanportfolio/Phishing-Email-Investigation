@@ -46,9 +46,9 @@ All domains and addresses in this report are fictional.
 
 I examined the sender's email address and compared it with the legitimate organisation's domain.
 
-Sender domain: `Andrew-support.security`
+Sender domain: `company-support.example`
 
-Legitimate company domain: `Andrew.security`
+Legitimate company domain: `company.example`
 
 I identified that the domains did not match.
 
