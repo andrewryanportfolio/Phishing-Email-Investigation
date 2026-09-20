@@ -1,0 +1,70 @@
+# Phishing Email Investigation
+
+## Project Overview
+This project documents a simulated phishing email investigation from the perspective of a Level 1 SOC Analyst.
+
+The objective of this analysis is to identify suspicious indicators, assess the potential threat and recommend appropriate response actions.
+
+**Disclaimer:** This is a fictional training scenario. No real company emails, customer data or confidential information have been used in this scenario.
+
+## Scenario
+An employee reports a suspicious email claiming that their Microsoft 365 account will be disabled unless they immediately verify their credentials. They explain that this email has come from IT and that they need to act immediately. 
+
+## Investigation Objectives
+1. Examine the sender's email address.
+2. Analyse the email's content and urgency. Look for wods like today, click here now or anything else along those lines.
+3. Inspect the suspicious URL safely.
+4. Understand SPF, DKIM and DMARC authentication.
+5. Determine an appropriate response.
+
+## Tools
+- Manual email analysis
+- Email header analysis
+- VirusTotal (for safe, public indicators only)
+- AI for quick email source code analysis
+
+## Initial Findings
+
+### Sender Address
+The email claims to be from internal IT Support.
+
+Sender: helpdesk@andrew.secur1ty
+
+The scenario's legitimate company domain is andrew.security.
+
+The sender's domain differs from the legitimate company domain. This is a suspicious indicator requiring further investigation.
+
+### Social Engineering
+The email threatens account suspension within 24 hours and pressures the recipient to act immediately.
+
+This urgency is consistent with a common phishing technique.
+
+### Suspicious URL
+hxxps://login-secur1ty.example/reset
+
+The URL is not associated with the legitimate company domain in this fictional scenario.
+
+It appears designed to direct the user to an external login page.
+
+No live URL was visited or scanned.
+
+## Preliminary Assessment
+Classification: Suspected credential phishing.
+
+The email uses urgency, an unexpected sender domain and an unverified login link.
+
+Because this is a simulated example, the classification is based on the supplied scenario rather than real-world evidence.
+
+## Recommended Response
+1. Advise the user not to click the link.
+2. Verify the message through a trusted IT contact.
+3. Escalate the email to the security team.
+4. Check whether other users received similar emails.
+5. Investigate any reported credential submission.
+
+## Lessons Learned
+This project demonstrates the importance of checking sender addresses, examining URLs and recognising social engineering techniques.
+
+Further investigation would require genuine email headers and additional evidence.
+
+There no malicious files attached to this email to investigate.
