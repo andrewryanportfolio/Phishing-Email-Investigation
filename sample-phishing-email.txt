@@ -1,7 +1,7 @@
 SIMULATED PHISHING EMAIL - TRAINING ONLY
 
-From: IT Support <helpdesk@andrew-secur1ty.example>
-To: employee@andrew.security
+From: IT Support <helpdesk@company-support.example>
+To: employee@company.example
 Subject: URGENT: Your Account Will Be Disabled
 
 Dear Employee,
