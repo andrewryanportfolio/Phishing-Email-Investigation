@@ -1,0 +1,21 @@
+SIMULATED PHISHING EMAIL - TRAINING ONLY
+
+From: IT Support <helpdesk@andrew-secur1ty.example>
+To: employee@andrew.security
+Subject: URGENT: Your Account Will Be Disabled
+
+Dear Employee,
+
+Your Microsoft 365 password will expire within 24 hours.
+
+To prevent your account from being disabled, you must verify your credentials immediately using the link below.
+
+hxxps://login-security.example/reset
+
+Failure to complete this process will result in your account being suspended Today.
+
+Regards,
+IT Security Team
+
+---
+Note: This email is entirely fictional. No real email headers or authentication results are provided.
